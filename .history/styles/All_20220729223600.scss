@@ -1,0 +1,48 @@
+// Register Page Design
+
+.Register {
+  background-color: #062863;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .RegisterForm {
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    padding: 40px 40px;
+    border-radius: 10px 10px 10px 0;
+    shadow: 0 0 2px lightgrey;
+    margin-top: 30px;
+
+    .formHead {
+      text-align: center;
+      h3 {
+        color: #083e9e;
+      }
+      p {
+        color: #4a5568;
+        font-size: 0.8rem;
+        font-weight: light;
+        margin: 7px 0 20px 0;
+        word-spacing: 0.1rem;
+      }
+    }
+
+    .inputSection {
+      .classStyle {
+        padding: 12px;
+        width: 100%;
+        background-color: opacify(whitesmoke, 1);
+        border: 0;
+        border-radius: .3rem;
+        font-size: 1rem;
+
+        &:active{
+            border
+        }
+      }
+    }
+  }
+}

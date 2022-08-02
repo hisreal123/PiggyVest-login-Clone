@@ -1,0 +1,14 @@
+.container {
+  padding: 0 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
